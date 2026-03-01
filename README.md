@@ -97,3 +97,42 @@ Make sure you have:
 - AI API key (Gemini/OpenAI)
 
 ---
+🎙️ LiveKit – Real-Time Interview Engine
+
+We use LiveKit to power real-time voice-based AI interviews in SMART Recruiter Assistant.
+
+🔹 Why LiveKit?
+
+WebRTC-based ultra-low latency communication
+
+Secure token-based authentication
+
+Scalable real-time infrastructure
+
+Cloud-hosted or self-hosted deployment support
+
+Seamless integration with React frontend
+
+🔹 Role in Our System
+
+LiveKit enables:
+
+🎤 Real-time AI voice interviews
+
+🔐 Secure interview room creation
+
+👥 Candidate participation via unique access tokens
+
+⚡ Low-latency two-way audio streaming
+
+🔹 How It Works
+
+Backend (FastAPI) generates a LiveKit access token.
+
+Frontend connects using LiveKit Client SDK.
+
+Candidate joins a secure interview room.
+
+AI interviewer communicates in real-time.
+
+Session data and transcripts are stored in Supabase.
