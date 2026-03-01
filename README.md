@@ -97,11 +97,3 @@ Make sure you have:
 - AI API key (Gemini/OpenAI)
 
 ---
-
-## 💻 Installation
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/Prashanth-69-coder/AI-MOCK-INTERVIEWER-PRACTICE.git
-cd AI-MOCK-INTERVIEWER-PRACTICE
